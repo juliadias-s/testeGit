@@ -1,0 +1,57 @@
+.container {
+    width: 450px;
+    background-color: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 50px 50px;
+    border-radius: 10px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+/* Label acima de cada campo */
+.input-field {
+    position: relative;
+    width: 100%;
+    margin: 25px auto;
+}
+
+.input-field label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    padding-left: 4px;
+}
+
+.input-field input {
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 0 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.container button{
+    width: 55%;
+    height: 45px;
+    background-color: rgb(220, 170, 205);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 530;
+    text-shadow: none;
+    margin: 30px auto 0 auto;
+    display: block;
+}
