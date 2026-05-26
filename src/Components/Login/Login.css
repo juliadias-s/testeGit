@@ -10,7 +10,7 @@
 .container h1 {
     text-align: center;
     font-size: 30px;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 
 /* Label acima de cada campo */
@@ -41,6 +41,21 @@
     box-sizing: border-box;
 }
 
+/* borda vermelha quando o campo for inválido */
+.input-field input.input-error {
+    border: 1.5px solid #e05c5c;
+    box-shadow: 0 0 8px rgba(224, 92, 92, 0.2);
+}
+
+/* mensagem de erro embaixo do campo */
+.error-message {
+    display: block;
+    margin-top: 6px;
+    padding-left: 4px;
+    font-size: 12px;
+    color: #e05c5c;
+}
+
 .container button{
     width: 55%;
     height: 45px;
@@ -50,8 +65,17 @@
     border-radius: 40px;
     cursor: pointer;
     font-size: 16px;
-    font-weight: 530;
+    font-weight: 600;
     text-shadow: none;
     margin: 30px auto 0 auto;
     display: block;
+}
+
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fce4ec;
 }
